@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main (){
+	int size, c,d;
+	cout<< "ENTER THE SIZE OF YOUR TRIANGLE"<< endl;
+	cin>> size;
+	for(c=1;c<=size; c++){
+		for(d=1;d<=c;d++){
+			cout<< "T";
+		}
+		cout<<endl;
+	}
+
+for(c=size-1; c>=1;c--){
+	for(d=1;d<=c;d++){
+		cout<< "T";
+	}
+	cout<<endl;
+}
+return 0;
+}
